@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: todo-delete-tasks-api-ingress
 spec:
-  ingressClassName: todo-add-tasks-api-ingress
+  ingressClassName: azure-application-gateway
   rules:
     - host: delete-task-api.jhandu.shop
       http:
